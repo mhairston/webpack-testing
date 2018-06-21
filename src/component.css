@@ -1,0 +1,12 @@
+.component {
+  background-color: #def;
+}
+
+.component::before {
+  content: '';
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-image: url('./a1.png');
+  background-size: 100%;
+}
